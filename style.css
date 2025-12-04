@@ -137,6 +137,159 @@ svg{
     height: 50px;
 }
 
+/* For tablets and smaller desktops (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .pc {
+        left: auto;
+        margin: 0 auto;
+        width: 300px;
+        height: 300px;
+        top: 50px;
+    }
+
+    .bienvenido {
+        font-size: 50px;
+        left: 0;
+        top: 150px;
+        margin-left: 80px;
+    }
+
+    .description {
+        font-size: 17px;
+        left: 0;
+        top: 250px;
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+
+    .reus {
+        left: 200px;
+        font-size: 25px;
+        top: -20px;
+    }
+
+    .front, .back {
+        gap: 50px;
+        margin: 40px 0;
+    }
+
+    .skill-box {
+        width: 180px;
+        height: 180px;
+    }
+
+    .Github, .Linkedin {
+        font-size: 35px;
+    }
+
+    .Linkedin img, .Github img {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+/* For mobile devices (max-width: 768px) */
+@media (max-width: 768px) {
+    .pc {
+        width: 250px;
+        height: 250px;
+        left: auto;
+        margin: 0 auto;
+        top: 30px;
+    }
+
+    .bienvenido {
+        font-size: 40px;
+        position: relative;
+        left: auto;
+        top: auto;
+        margin-left: 0;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .description {
+        font-size: 16px;
+        position: relative;
+        left: auto;
+        top: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .reus {
+        left: auto;
+        font-size: 22px;
+        top: 0;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .front, .back {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        margin: 30px 0;
+    }
+
+    .skill-box {
+        width: 160px;
+        height: 160px;
+    }
+
+    .footer {
+        grid-template-columns: 1fr; /* Stack in one column */
+        text-align: center;
+    }
+
+    .Github, .Linkedin {
+        font-size: 30px;
+        margin: 10px 0;
+    }
+
+    .Linkedin img, .Github img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/* For smaller mobile devices (max-width: 480px) */
+@media (max-width: 480px) {
+    .pc {
+        width: 200px;
+        height: 200px;
+    }
+
+    .bienvenido {
+        font-size: 30px;
+    }
+
+    .description {
+        font-size: 14px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .reus {
+        font-size: 20px;
+    }
+
+    .skill-box {
+        width: 140px;
+        height: 140px;
+    }
+
+    .Github, .Linkedin {
+        font-size: 25px;
+    }
+
+    .Linkedin img, .Github img {
+        width: 35px;
+        height: 35px;
+    }
+}
 
 
 
